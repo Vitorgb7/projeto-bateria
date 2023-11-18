@@ -16,7 +16,7 @@ function playSound(sound){
     const keyElement = document.querySelector(`div[data-key = "${sound}"]`)
     
     if(audioElemnt){
-        // cureentTime esta zerando o audio para poder clicar nele novamente e ele tocar sem ter q esperar o audio retornar
+        // cureentTime esta zerando o audio para poder clicar nele novamente e ele tocar sem ter q esperar o audio terminar
         audioElemnt.currentTime = 0;
         audioElemnt.play();
     }

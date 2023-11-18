@@ -30,8 +30,6 @@ function playSound(sound){
     }
 }
 
-
-
 // essa função ta pegando o array e setando os segundos entre as teclas
 function playComposition(songArray){
     let wait = 0;
@@ -42,6 +40,5 @@ function playComposition(songArray){
         }, wait)
 
         wait += 250;
-
     }
 }
